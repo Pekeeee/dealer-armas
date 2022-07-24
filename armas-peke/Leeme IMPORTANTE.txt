@@ -1,0 +1,48 @@
+Estos son los pasos de instalacion del script, sigue todos los pasos al pie de la letra para que te funciones bien
+
+1. Agrega los archivos llamados "armas", "armas2", "armas3" a la carpeta "sounds" de el script llamado "InteractSound"
+Como hacer eso?
+Busca la carpeta de "InteracSound" en tus resources y la abres, despues la carpeta "client" despues la carpeta llamada "html" y llegaras a la carpeta "sounds"
+ahi agrega los archivos "armas", "armas2", "armas3"
+
+2. Agrega los archivos al "manifest" del "InteracSound", para eso vete a la carpeta de "InteracSound" y abres el archivo llamado "fxmanifest" o "resource" y
+al final de la seccion de "files" pega este codigo tal y como esta
+
+	'client/html/sounds/armas.ogg',
+	'client/html/sounds/armas2.ogg',
+	'client/html/sounds/armas3.ogg'
+
+2. En el archivo llamado "server.cfg" pon esto hasta el final, excatamente como esta
+
+ensure armas-peke
+ensure dealer-peke
+ensure Mansion-Playboy
+
+3. Agrega la base de datos
+
+4. Agregar la carpeta 'dealer-peke' a resources
+
+3. Agregar el mapeo "Mansion-Playboy"
+
+
+##NOTA IMPORTANTE##
+
+Despues de que cada vez que reinicies el servidor, reinicia el script
+Como se hace?
+Entras al server en fivem, pones f8 y pegas este codigo, tal y como esta
+
+restart armas-peke
+
+##NOTA IMPORTANTE 2##
+
+Si tu servidor esta configurado las armas como item, cambia el "server.lua" del trabajo de dealer por el "server.lua(2)" 
+
+
+Esta completamente prohibido editar este script y revenderlo, el script contiene bloqueo de IP y si se descubre usando ilegalmente habra serias consecuencias
+
+Gracias por ser parte de nuestra comunidad! 
+
+Nuestro discord: https://discord.gg/B5tdRE6sXv
+
+Atte. Peke#0860
+
